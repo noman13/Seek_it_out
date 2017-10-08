@@ -1,5 +1,12 @@
 .restaurantThumb{
-	width:160px;
+	width:150px;
+}
+.categoryThumb{
+	width:150px;
+}
+
+.seatThumb{
+	width:150px;
 }
 
 textarea{
@@ -10,6 +17,14 @@ textarea{
 }
 
 .editRestaurantImg{
+	border: 1px solid black;
+}
+
+.editCategoryImg{
+	border: 1px solid black;
+}
+
+.editSeatImg{
 	border: 1px solid black;
 }
 /*.table-responsive {

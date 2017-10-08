@@ -16,7 +16,7 @@
           {!! Form::number('mobile_no', null, array('required','step'=>'any','class'=>'form-control', 'placeholder'=>'Enter mobile no')) !!}
          </div>
          <div class="form-group col-lg-3">
-         {!! Form::number('transaction_id', null, array('required','step'=>'any','class'=>'form-control', 'placeholder'=>'Enter transaction id')) !!}
+         {!! Form::text('transaction_id', null, array('required','step'=>'any','class'=>'form-control', 'placeholder'=>'Enter transaction id')) !!}
          </div>
          <div class="form-group col-lg-4">
             {!! Form::submit('Update', array('class'=>'btn btn-primary')) !!}

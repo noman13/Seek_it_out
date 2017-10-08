@@ -29,7 +29,7 @@
                   <td>{{$restaurant->title}}</td>
                   <td>{{$restaurant->description}}</td>
                   <td>{{$restaurant->total_seat}}</td>
-	              <td>{{$restaurant->avail_seat}}</td>
+	          <td>{{$restaurant->avail_seat}}</td>
                   <td class="restaurantThumb"><img class="restaurantThumb" src="{{$restaurant->image}}"></td>
                   <td>{{$restaurant->user->name  }}</td>
                   <td>

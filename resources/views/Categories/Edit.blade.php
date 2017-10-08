@@ -9,7 +9,7 @@
          {!! Form::text('verification', null, array('required','class'=>'form-control', 'placeholder'=>'Please verify')) !!}
          </div>
          <div class="form-group col-lg-4">
-         {!! Form::select('category', ['Authentic'=>'Authentic','Exquisite'=>'Exquisite', 'Food Cart'=>'Food Cart'], null, array('required','class'=>'form-control', 'placeholder'=>'Select Category')) !!}
+         {!! Form::select('category', ['Indoor'=>'Indoor','RoofTop'=>'RoofTop','Outdoor'=>'Outdoor', 'Fast Food'=>'Fast Food','Authentic'=>'Authentic','Exquisite'=>'Exquisite', 'Food Cart'=>'Food Cart'], null, array('required','class'=>'form-control', 'placeholder'=>'Select Category')) !!}
          </div>
          <div class="form-group col-lg-4">
             {!! Form::file('image', array('class'=>'form-control', 'placeholder'=>'Select Category Image')) !!}

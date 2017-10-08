@@ -31,13 +31,13 @@
             <div class="collapse navbar-collapse" id="app-navbar-collapse">
                <!-- Left Side Of Navbar -->
                <ul class="nav navbar-nav">
-                  <li><a href="{{ url('/') }}">Home</a></li>
+                  <li><a href="{{ url('/home') }}">Home</a></li>
                   <li><a href="{{ url('/Restaurants') }}">Restaurants</a></li>
                   <li><a href="{{ url('/Categories') }}">Categories</a></li>
                   <li><a href="{{ url('/Seats') }}">Seats</a></li>
-		          <li><a href="{{ url('/Reservations') }}">Reservations</a></li>
-		          <li><a href="{{ url('/Payments') }}">Payments</a></li>
-		          <li><a href="{{ url('/post') }}">Post</a></li>
+		  <li><a href="{{ url('/Reservations') }}">Reservations</a></li>
+		  <li><a href="{{ url('/Payments') }}">Payments</a></li>
+		  <li><a href="{{ url('/post') }}">Post</a></li>
                   &nbsp;
                </ul>
                <!-- Right Side Of Navbar -->
