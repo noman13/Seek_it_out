@@ -7,7 +7,7 @@
   
   <title>SEEK IT OUT</title>
   
-      <!-- Mobile Specific Meta
+      
         ================================================== -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         

@@ -6,30 +6,27 @@
       
       <title>SEEK IT OUT</title>
       
-         <!-- Mobile Specific Meta
-            ================================================== -->
+         
             <meta name="viewport" content="width=device-width, initial-scale=1">
             
-            <!-- Favicon -->
+            
             <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
             
-         <!-- CSS
-            ================================================== -->
-            <!-- Fontawesome Icon font -->
+         
             <link rel="stylesheet" href="css/font-awesome.min.css">
-            <!-- bootstrap.min css -->
+           
             <link rel="stylesheet" href="css/bootstrap.min.css">
-            <!-- Animate.css -->
+            
             <link rel="stylesheet" href="css/animate.css">
-            <!-- Owl Carousel -->
+            
             <link rel="stylesheet" href="css/owl.carousel.css">
-            <!-- Grid Component css -->
+            
             <link rel="stylesheet" href="css/component.css">
-            <!-- Slit Slider css -->
+            
             <link rel="stylesheet" href="css/slit-slider.css">
-            <!-- Main Stylesheet -->
+           
             <link rel="stylesheet" href="css/main.css">
-            <!-- Media Queries -->
+            
             <link rel="stylesheet" href="css/media-queries.css">
 
          <!--
@@ -41,7 +38,7 @@
          <!-- Ubuntu / Body Font -->
          <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,300' rel='stylesheet' type='text/css'>
          
-         <!-- Modernizer Script for old Browsers -->     
+            
          <script src="js/modernizr-2.6.2.min.js"></script>
 
 

@@ -27,6 +27,8 @@ class SeatsController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+	 
+	 //what authorized user sees
     public function index()
     {
 	$Seats = Seat::all();
