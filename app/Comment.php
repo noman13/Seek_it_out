@@ -10,6 +10,7 @@ class Comment extends Model
         return $this->belongsTo('App\User');
     }
     public function restaurent() {
-        return $this->belongsTo('App\Post');
+        return $this->belongsTo('App\Post'); 
+        //this is for a comment model
     }
 }
