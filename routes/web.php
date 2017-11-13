@@ -1,5 +1,6 @@
 <?php
-
+use App\Restaurant;
+use Illuminate\Support\Facades\Input;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,10 +14,18 @@
 Route::get('/', function () {
     return view('home');
 });
+//Search
+Route::any('/search',function(){
+    $q = Input::get ( 'q' );
+    $restaurant = Restaurant::where('title','LIKE','%'.$q.'%')->orWhere('description','LIKE','%'.$q.'%')->orWhere('total_seat','LIKE','%'.$q.'%')->orWhere('avail_seat','LIKE','%'.$q.'%')->get();
+    if(count($restaurant) > 0)
+        return view('welcome')->withDetails($restaurant)->withQuery ( $q );
+    else return view ('welcome')->withMessage('No Details found. Try to search again !');
+});
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/', 'HomeController@index')->name('home');
 
 Route::resource('Restaurants', 'RestaurantsController');
 Route::resource('Categories', 'CategoriesController');
