@@ -27,6 +27,8 @@ class CategoriesController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+	 
+	 //what authorized user sees
     public function index()
     {
     $Categories = Category::all();

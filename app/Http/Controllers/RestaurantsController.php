@@ -27,6 +27,8 @@ class RestaurantsController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+	 
+	 //what authorized user sees
     public function index()
     {
 	$restaurants = Restaurant::all();

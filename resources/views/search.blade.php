@@ -1,6 +1,7 @@
 @extends('layouts.app2')
 @section('content')
 <div class="container">
+<!--Shows Result-->
     @if(isset($details))
         <p> The Search results for your query <b> {{ $query }} </b> are :</p>
     <h2>Sample Restaurant details</h2>

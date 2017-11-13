@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Input;
 Route::get('/', function () {
     return view('home');
 });
-//Search
+//Searches for restaurant
 Route::any('/search',function(){
     $q = Input::get ( 'q' );
     $restaurant = Restaurant::where('title','LIKE','%'.$q.'%')->orWhere('description','LIKE','%'.$q.'%')->orWhere('total_seat','LIKE','%'.$q.'%')->orWhere('avail_seat','LIKE','%'.$q.'%')->get();
