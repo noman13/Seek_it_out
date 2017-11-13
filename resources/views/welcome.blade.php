@@ -4,8 +4,9 @@
     @if(isset($details))
         <p> The Search results for your query <b> {{ $query }} </b> are :</p>
     <h2>Sample Restaurant details</h2>
-    <table class="table table-striped">
-        <thead>
+      <div class="table-responsive">
+   <table class="table table-bordered ">
+<thead>
             <tr>
                 <th>Title</th>
                 <th>Description</th>
@@ -25,5 +26,8 @@
         </tbody>
     </table>
     @endif
+
+</div>
+        
 </div>
 @endsection

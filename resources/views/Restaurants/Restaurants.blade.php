@@ -168,11 +168,10 @@
      <form action="/search" method="POST" role="search">
     {{ csrf_field() }}
     <div class="input-group">
-        <input type="text" class="form-control" name="q"
+      <br></br>
+        <input type="text" class="form-group col-lg-11" name="q"
             placeholder="Search restaurants"> <span class="input-group-btn">
-            <button type="submit" class="btn btn-primary">
-                <span class="glyphicon glyphicon-search"></span>
-            </button>
+            <button type="submit" class="btn btn-green animated fadeInUp">Search</button>
         </span>
     </div>
 </form>

@@ -1,7 +1,7 @@
 @extends('layouts.app3')
 
 @section('content')
-<div class="container">
+<div class="container" style="background: black">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
