@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ app()->getLocale() }}">
    <head>
+      
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,9 +12,9 @@
       <link href="{{ asset('css/styles.css') }}" rel="stylesheet">
       <link href="{{ asset('css/app.css') }}" rel="stylesheet">
    </head>
-   <body>
+   <body style="background: rgb(48, 48, 48);">
       <div id="app">
-      <nav class="navbar navbar-default navbar-static-top">
+      <nav class="navbar navbar-default navbar-static-top" style="background: rgb(20,20,20)">
          <div class="container">
             <div class="navbar-header">
                <!-- Collapsed Hamburger -->

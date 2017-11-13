@@ -19,8 +19,8 @@ Route::any('/search',function(){
     $q = Input::get ( 'q' );
     $restaurant = Restaurant::where('title','LIKE','%'.$q.'%')->orWhere('description','LIKE','%'.$q.'%')->orWhere('total_seat','LIKE','%'.$q.'%')->orWhere('avail_seat','LIKE','%'.$q.'%')->get();
     if(count($restaurant) > 0)
-        return view('welcome')->withDetails($restaurant)->withQuery ( $q );
-    else return view ('welcome')->withMessage('No Details found. Try to search again !');
+        return view('search')->withDetails($restaurant)->withQuery ( $q );
+    else return view ('search')->withMessage('No Details found. Try to search again !');
 });
 
 Auth::routes();
