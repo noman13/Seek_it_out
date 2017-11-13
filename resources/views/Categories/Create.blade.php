@@ -1,4 +1,4 @@
-
+<!--view of Category-->
 @extends('layouts.app2')
 @section('content')
 

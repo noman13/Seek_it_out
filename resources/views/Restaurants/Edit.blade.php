@@ -1,4 +1,5 @@
 @extends('layouts.app2')
+<!--view of Restaurant-->
 @section('content')
 
    <div class="panel-heading">Edit Restaurant Information:     {{ $restaurant->title }}</div>

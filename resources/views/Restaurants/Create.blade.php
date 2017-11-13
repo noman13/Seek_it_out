@@ -1,4 +1,5 @@
 @extends('layouts.app2')
+<!--view of Restaurant-->
 @section('content')
  <div class="panel-heading">Add New Restaurant: </div>
    <div class="panel-body">

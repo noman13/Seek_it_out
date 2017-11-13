@@ -1,3 +1,4 @@
+<!--view of Restaurant-->
 <!DOCTYPE html>
 <html class="no-js">
 <head>
